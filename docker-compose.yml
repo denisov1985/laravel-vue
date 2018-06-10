@@ -3,8 +3,10 @@ version: '3'
 services:
   yarn:
     build: './nodejs'
+    ports:
+      - "3000:3000"
     volumes:
-     - ./app:/home/node
+     - ./frontend:/home/node
   php:
     build: './php'
     ports:
