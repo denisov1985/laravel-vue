@@ -1,7 +1,7 @@
 <template>
   <div>
-    <layout>
-      ololo trololo
+    <layout title="Dashboard">
+      Dashboard
     </layout>
   </div>
 </template>
